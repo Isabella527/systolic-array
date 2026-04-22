@@ -44,8 +44,11 @@ By utilizing parallel Processing Elements (PEs) and a pipelined data flow, this 
 The system is built hierarchically from the transistor level up:
 
 ✅ **MAC Units**: 4-bit array multiplier + cascaded full adders.
+
 ✅ **Storage**: 4-bit input/weight registers and 12-bit output registers.
+
 ✅ **Arithmetic**: 11-bit precision to prevent overflow during accumulation.
+
 ✅ **Primitives**: Custom-designed NAND, OR, and Inverter gates.
 
 ### Design Details
