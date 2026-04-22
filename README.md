@@ -1,5 +1,6 @@
 
 # 2×2 🧊 Systolic Array for Matrix–Matrix Multiplication
+<img width="2816" height="1536" alt="Gemini_Generated_Image_9on7ds9on7ds9on7" src="https://github.com/user-attachments/assets/604e7e2c-69b1-4f07-ad89-2ac3f7c8ff39" />
 
 A fully transistor-level, static CMOS implementation of a 2×2 Systolic Array for matrix multiplication, designed and verified in Cadence Virtuoso.
 
@@ -9,12 +10,6 @@ SystolicMM is a ground-up, transistor-level implementation of a 2×2 Systolic Ar
 
 The array accepts two 4-bit input matrices and produces 12-bit output values representing the four elements of the result matrix, all verified via transient simulation.
 
-Input Matrix A         Input Matrix B          Output Matrix C
-┌──────┬──────┐       ┌──────┬──────┐         ┌──────────┬──────────┐
-│  A11 │  A12 │   ×   │  B11 │  B12 │    =    │  C11=108 │  C12=180 │
-│  A21 │  A22 │       │  B21 │  B22 │         │  C21=99  │  C22=165 │
-└──────┴──────┘       └──────┴──────┘         └──────────┴──────────┘
-  (12×4 bits)           (4-bit weights)           (12-bit outputs)
 <img width="530" height="145" alt="Screenshot 2026-04-22 at 15 09 10" src="https://github.com/user-attachments/assets/3312c2b5-1c1c-42ca-9dee-dbd009999898" />
 
 This project explores the design and implementation of a **2x2 Systolic Array**, a specialized hardware architecture optimized for high-throughput matrix operations. 
